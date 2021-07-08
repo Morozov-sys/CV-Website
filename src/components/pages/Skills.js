@@ -4,7 +4,7 @@ import '../../App.css'
 import Button from '../Button'
 import {BrowserRouter, Link} from 'react-router-dom'
 
-function Skills() {
+const Skills = () => {
     return (
         <div className='skills'>
         <h1>HELLO</h1>

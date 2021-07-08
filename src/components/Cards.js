@@ -27,7 +27,23 @@ function Cards() {
                    label="Productivity"
                    path='/products'
                />
-               </ul>    
+               </ul>
+               <ul className="cards__item">
+               <CardItem 
+                   src = {require('./images/img-12.jpg').default}                 
+                   text="Track your spendings to build a healthy budget"
+                   label="Finance"
+                   path='/expense'
+               />
+               </ul>
+               <ul className="cards__item">
+               <CardItem 
+                   src = {require('./images/img-13.jpg').default}                 
+                   text="Real time prices for all the Cryptocurrencies"
+                   label="Investment"
+                   path='/crypto'
+               />
+               </ul>
          </div>
          </div>
         </div>

@@ -22,6 +22,17 @@ function App() {
      return null;
 }}/>
        <Route path ='/sign-up' component={SignUp} />
+
+       <Route path ='/expense' component={() => { 
+     window.location.replace( 'https://affectionate-clarke-ccf7ec.netlify.app'); 
+     return null;
+}}/>
+       <Route path ='/crypto' component={() => { 
+     window.location.replace( 'https://fervent-payne-3dbfbc.netlify.app'); 
+     return null;
+}}/>
+
+       
      </Switch>
      </Router>
     </div>
